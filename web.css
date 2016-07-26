@@ -40,6 +40,10 @@ nav {
 th{
     width: 150px;
 }
+#scratch th{
+    font-size: 20px;
+    text-align: left;
+}
 
 nav ul {
     list-style-type: none;
