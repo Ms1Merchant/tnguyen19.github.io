@@ -18,8 +18,8 @@ img.home {
     position:fixed;
     top:50%;
     left:50%;
-    margin-top: -100px;
-    margin-left: -100px;
+    margin-top: -133px;
+    margin-left: -128px;
 }
 
 header, footer {
@@ -32,9 +32,13 @@ header, footer {
 
 nav {
     float: left;
-    max-width: 240px;
+    max-width: 210px;
     margin: 0;
     padding: 1em;
+}
+
+th{
+    width: 150px;
 }
 
 nav ul {
@@ -64,7 +68,7 @@ nav ul a:active {
 }
 
 article {
-    margin-left: 250px;
+    margin-left: 220px;
     background-color: #dfdfdf;
     border-left: 1px #dfdfdf;
     padding: 1em;
