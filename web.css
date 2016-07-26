@@ -1,0 +1,72 @@
+@font-face {
+    font-family: AvenirRoman;
+    src: url(fonts/AvenirRoman.otf);
+}
+
+body{
+    background-color: #eeb6b7;
+}
+
+div.container {
+    width: 100%;
+    border: 1px #eeb6b7;
+    font-family: AvenirRoman;
+    background-color: #eeb6b7;
+}
+
+img.home {
+    position:fixed;
+    top:50%;
+    left:50%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: #6e7376;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 240px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+nav ul a:link {
+    color: black;
+    font-size: 24px
+}
+
+nav ul a:visited {
+    color: black;
+}
+
+nav ul a:hover {
+    color: #6e7376;
+}
+
+nav ul a:active {
+    color: white;
+}
+
+article {
+    margin-left: 250px;
+    background-color: #dfdfdf;
+    border-left: 1px #dfdfdf;
+    padding: 1em;
+    overflow: hidden;
+}
