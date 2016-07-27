@@ -7,14 +7,14 @@ body{
     background-color: #eeb6b7;
 }
 
-div.container {
+.container {
     width: 100%;
     border: 1px #eeb6b7;
     font-family: AvenirRoman;
     background-color: #eeb6b7;
 }
 
-img.home {
+.home {
     position:fixed;
     top:50%;
     left:50%;
@@ -28,6 +28,10 @@ header, footer {
     background-color: #6e7376;
     clear: left;
     text-align: center;
+}
+
+header h1{
+    font-size: 44px;
 }
 
 nav {
