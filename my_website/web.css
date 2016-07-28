@@ -49,6 +49,10 @@ th{
     text-align: left;
 }
 
+#scratch{
+    padding: 5px;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
