@@ -44,9 +44,11 @@ nav {
 th{
     width: 150px;
 }
+
 #scratch th{
     font-size: 20px;
     text-align: left;
+    width: 30%;
 }
 
 #scratch td{
