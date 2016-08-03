@@ -51,6 +51,12 @@ th{
     width: 30%;
 }
 
+#fauxtoshop th{
+    font-size: 20px;
+    text-align: left;
+    width: 45%;
+}
+
 #scratch td{
     padding: 8px;
 }
