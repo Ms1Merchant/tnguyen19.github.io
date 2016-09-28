@@ -73,9 +73,17 @@ nav ul a {
 
 nav ul a:link {
     color: black;
-    font-size: 24px
+    font-size: 24px;
 }
 
+nav ul ul a:link {
+    color: black;
+    font-size: 24px;
+    font-weight:normal;
+}
+nav ul ul{
+    padding-left: 50px;
+}
 nav ul a:visited {
     color: black;
 }
@@ -111,3 +119,8 @@ article {
 .w3-margin-bottom{margin-bottom:16px!important}
 
 .w3-white{text-align: center; font-size: large}
+
+#blah{
+    font-size:26px;
+    font-weight:bold;
+}
